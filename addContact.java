@@ -29,6 +29,12 @@ public class addContact {
 		System.out.println("Enter EmailId : ");
 		email = scanner.next();
 	}
+	@Override
+	public String toString() {
+		return "[first name : " + first_name + ", last name : " + last_name + ", address : " + address + ", city : "
+				+ city + ", state : " + state + ", zip code : " + zip_code + ", phone number : " + phone_number + ", email : "
+				+ email + "]";
+	}
 	public String getFirst_name() {
 		return first_name;
 	}
