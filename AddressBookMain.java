@@ -9,7 +9,7 @@ public class AddressBookMain {
 
 		System.out.println("**********Welcome to Address Book Program***********");
 		/*
-		 * creating an arraylist to store the person details
+		 * creating an arraylist to store the multiple person's details 
 		 */
 		ArrayList<addContact> list = new ArrayList<addContact>();
 		System.out.println("if you want to add person in the address book please type 1 ");
