@@ -10,8 +10,10 @@ public class addContact {
 	private int zip_code;
 	private long phone_number;
 	private String email;
+	;
 	Scanner scanner = new Scanner(System.in);
 	public void  addContact() {
+		addContact person = new addContact();
 		System.out.println("Enter First Name : ");
 		first_name = scanner.next();
 		System.out.println("Enter Last Name : ");
@@ -29,6 +31,7 @@ public class addContact {
 		System.out.println("Enter EmailId : ");
 		email = scanner.next();
 	}
+
 	@Override
 	public String toString() {
 		return "[first name : " + first_name + ", last name : " + last_name + ", address : " + address + ", city : "
